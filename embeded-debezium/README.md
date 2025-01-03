@@ -20,15 +20,6 @@ export DEBEZIUM_CONNECTOR_VERSION=2.4.0.Alpha2
 docker-compose up -d
 ```
 
-## Starting the SpringBoot application
-
-Go into student-cdc-relay folder and run
-
-```shell
-mvn spring-boot:run
-```
-
-
 ## Starting the Nestjs Application
 
 1. Navigate into `debezium-endpoints`
@@ -41,6 +32,17 @@ npm run start
 3. Install `REST Client` from extensions to test the endpoint
 4. Run `npm run start`
 5. Test the endpoint into rest-client.http by clicking Send Request
+
+## Starting the SpringBoot application
+
+Go into student-cdc-relay folder and run
+
+```shell
+mvn spring-boot:run
+```
+
+
+
 
 ## Check if everything worked
 
